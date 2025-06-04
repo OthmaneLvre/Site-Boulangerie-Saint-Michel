@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nos produits - Boulangerie Saint-Michel</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="a-propos.html">À propos</a></li>
+      <li><a href="produits.html" class="active">Produits</a></li>
+    </ul>
+    <a href="#" class="contact-btn">Contact</a>
+  </nav>
+
+  <main class="products-page">
+    <h1>Nos Produits</h1>
+
+    <div class="filter-buttons">
+        <button data-filter="all" class="filter-btn active">Tous</button>
+        <button data-filter="pain" class="filter-btn">Pains</button>
+        <button data-filter="viennoiserie" class="filter-btn">Viennoiseries</button>
+        <button data-filter="specialite" class="filter-btn">Spécialités</button>
+      </div>
+      
+    <!-- Catégorie : Pains -->
+    <section class="product-category pain">
+      <h2>Pains</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="images/pain-rond.jpg" alt="Pain rond">
+          <h3>Pain rond</h3>
+          <p>Farine locale, levain naturel, cuisson au feu de bois.</p>
+        </div>
+        <div class="product-card">
+          <img src="images/baguette.jpg" alt="Baguette">
+          <h3>Baguette tradition</h3>
+          <p>Recette artisanale pour une mie alvéolée et une croûte fine.</p>
+        </div>
+      </div>
+    </section>
+  
+    <!-- Catégorie : Viennoiseries -->
+    <section class="product-category viennoiserie">
+      <h2>Viennoiseries</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="images/croissants.jpg" alt="Croissants">
+          <h3>Croissants</h3>
+          <p>Beurre AOP, feuilletage maison, croustillants et dorés.</p>
+        </div>
+        <div class="product-card">
+          <img src="images/pain-choco.jpg" alt="Pain au chocolat">
+          <h3>Pain au chocolat</h3>
+          <p>Chocolat fondant, pâte levée feuilletée pur beurre.</p>
+        </div>
+      </div>
+    </section>
+  
+    <!-- Catégorie : Spécialités -->
+    <section class="product-category specialite">
+      <h2>Spécialités</h2>
+      <div class="product-grid">
+        <div class="product-card">
+          <img src="images/brioches.jpg" alt="Brioche maison">
+          <h3>Brioche maison</h3>
+          <p>Brioche moelleuse, légèrement sucrée, parfaite pour le petit déjeuner.</p>
+        </div>
+        <div class="product-card">
+          <img src="images/tarte.jpg" alt="Tarte de saison">
+          <h3>Tarte de saison</h3>
+          <p>Fruits frais, pâte sablée, crème pâtissière maison.</p>
+        </div>
+      </div>
+    </section>
+  </main>  
+
+  <footer class="site-footer">
+    <div class="footer-content">
+      <p>&copy; 2025 Boulangerie Saint-Michel — Tous droits réservés</p>
+      <ul class="footer-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="a-propos.html">À propos</a></li>
+        <li><a href="produits.html">Produits</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+  <script src="script.js" defer></script>
+</body>
+</html>
